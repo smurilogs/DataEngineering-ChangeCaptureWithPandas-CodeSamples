@@ -6,7 +6,7 @@
 * [1. About the Project](#1-about-the-project)
 * [2. Requirements](#2-requirements)
 * [3. Getting Started](#3-getting-started)
-* [4. Basic Usage](#4-license)
+* [4. Basic Usage](#4-basic-usage)
 * [5. License](#5-license)
 
 ## 1. About the project
@@ -51,7 +51,7 @@ The inputs for this module is always two Pandas dataframes (last and current sta
 
 The user must specify a set of columns as a compose key for the dataframe. It's important because the module is going to use these definitions to make the comparations. So, apart form this set, all other columns will be subject for comparations and change captures.
 
-The captures are going to be displayed data frames that can be invoked by different methods, each of them making difference by type of change (creation, update or delete) and by how it will be assembled (wide or long). Each method labels the table with its captures with the data source identification, type of change and change timestamp.
+The captures are going to be displayed data frames that can be invoked by different methods, each of them making difference by type of change (`creation`, `update` or `delete`) and by how it will be assembled (`wide` or `long`). Each method labels the table with its captures with the data source identification, type of change and change timestamp.
 
 Example of usage:
 
